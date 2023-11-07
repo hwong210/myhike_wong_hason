@@ -14,7 +14,7 @@ function getNameFromAuth() {
             //$("#name-goes-here").text(userName); //using jquery
 
             //method #3:  insert using querySelector
-            document.querySelector("#name-goes-here").innerText = userName
+            // document.querySelector("#name-goes-here").innerText = userName
 
         } else {
             // No user is signed in.
